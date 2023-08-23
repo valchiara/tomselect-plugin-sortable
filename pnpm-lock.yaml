@@ -1,0 +1,45 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  sortablejs:
+    specifier: ^1.15.0
+    version: 1.15.0
+  tom-select:
+    specifier: ^2.2.2
+    version: 2.2.2
+
+devDependencies:
+  '@types/sortablejs':
+    specifier: ^1.15.1
+    version: 1.15.1
+
+packages:
+
+  /@orchidjs/sifter@1.0.3:
+    resolution: {integrity: sha512-zCZbwKegHytfsPm8Amcfh7v/4vHqTAaOu6xFswBYcn8nznBOuseu6COB2ON7ez0tFV0mKL0nRNnCiZZA+lU9/g==}
+    dependencies:
+      '@orchidjs/unicode-variants': 1.0.4
+    dev: false
+
+  /@orchidjs/unicode-variants@1.0.4:
+    resolution: {integrity: sha512-NvVBRnZNE+dugiXERFsET1JlKZfM5lJDEpSMilKW4bToYJ7pxf0Zne78xyXB2ny2c2aHfJ6WLnz1AaTNHAmQeQ==}
+    dev: false
+
+  /@types/sortablejs@1.15.1:
+    resolution: {integrity: sha512-g/JwBNToh6oCTAwNS8UGVmjO7NLDKsejVhvE4x1eWiPTC3uCuNsa/TD4ssvX3du+MLiM+SHPNDuijp8y76JzLQ==}
+    dev: true
+
+  /sortablejs@1.15.0:
+    resolution: {integrity: sha512-bv9qgVMjUMf89wAvM6AxVvS/4MX3sPeN0+agqShejLU5z5GX4C75ow1O2e5k4L6XItUyAK3gH6AxSbXrOM5e8w==}
+    dev: false
+
+  /tom-select@2.2.2:
+    resolution: {integrity: sha512-igGah1yY6yhrnN2h/Ky8I5muw/nE/YQxIsEZoYu5qaA4bsRibvKto3s8QZZosKpOd0uO8fNYhRfAwgHB4IAYew==}
+    dependencies:
+      '@orchidjs/sifter': 1.0.3
+      '@orchidjs/unicode-variants': 1.0.4
+    dev: false

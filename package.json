@@ -1,0 +1,9 @@
+{
+	"dependencies": {
+		"sortablejs": "^1.15.0",
+		"tom-select": "^2.2.2"
+	},
+	"devDependencies": {
+		"@types/sortablejs": "^1.15.1"
+	}
+}
